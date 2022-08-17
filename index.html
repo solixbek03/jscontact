@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./bootstrap.css">
+</head>
+<body>
+  <div class="container d-flex justify-content-center align-items-center">
+    <form class="hero__form form-control mt-5 w-25 border border-5 border-dark">
+      <input class="hero__input-firstname form-control w-100 border border-2 border-dark mt-3" placeholder="Solihbek" type="text" required>
+
+      <input class="hero__input-surename form-control w-100 border border-2 border-dark mt-3" placeholder="Abdullabekov" type="text" required>
+
+      <input class="hero__input-email form-control w-100 border border-2 border-dark mt-3" placeholder="@gmail.com" type="email"  >
+
+      <input class="hero__input-tel form-control w-100 border border-2 border-dark mt-3" placeholder="+998 ** *** ** **" minlength="7" type="number" required>
+
+      <input class="hero__input-date form-control w-100 border border-2 border-dark mt-3" type="date" required>
+
+      <button class="btn btn-danger mt-3" type="submit">Send</button>
+    </form>
+
+    <div class="bg-primary w-25 form-control mx-3">
+      <span class="d-flex">Name:<p class="hero__resultF m-0"></p></span>
+      <span class="d-flex mt-2">Email:<p class="hero__result-email m-0"></p></span>
+      <span class="d-flex mt-2">Tel:<p class="hero__result-tel m-0"></p></span>
+      <span class="d-flex mt-2">Date:<p class="hero__result-date m-0"></p></span>
+    </div>
+  </div>
+
+
+  <script src="./scrtip.js"></script>
+</body>
+</html>
